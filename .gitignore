@@ -1,0 +1,73 @@
+# AWS Services Dashboard Project - Documentation Repository
+# This is a documentation-only repository with minimal gitignore needs
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+.classpath
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+.tmp/
+tmp/
+temp/
+
+# Log files
+*.log
+logs/
+
+# Personal notes (if developers add them locally)
+notes.md
+TODO.md
+SCRATCH.md
+
+# Environment files (shouldn't be needed for docs, but just in case)
+.env
+.env.local
+.env.*.local
+
+# Build artifacts (shouldn't exist in docs repo, but preventive)
+dist/
+build/
+out/
+
+# Archives (if documentation is exported)
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Generated PDFs (if documentation is exported to PDF)
+*.pdf
+
+# Backup directories
+backup/
+backups/
+
+# OS generated thumbnails and previews
+.thumbnails/
+.cache/
+
+# IMPORTANT: Screenshot images are documentation assets and SHOULD be tracked
+# Do not ignore screenshots/ directory - we want these in git
+# !screenshots/*.png (already tracked by default since we're not ignoring *.png globally)
