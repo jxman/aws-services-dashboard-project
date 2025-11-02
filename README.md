@@ -120,12 +120,12 @@ _Dashboard views: Overview • Regions • Services • Coverage_
 
 This project consists of four interconnected repositories:
 
-| Repository                                                                        | Purpose            | Technology     | Status    |
-| --------------------------------------------------------------------------------- | ------------------ | -------------- | --------- |
-| [aws-services-site](https://github.com/jxman/aws-services-site)                   | Frontend dashboard | React + Vite   | ✅ Active |
-| [aws-infrastructure-fetcher](https://github.com/jxman/aws-infrastructure-fetcher) | Data collection    | Node.js Lambda | ✅ Active |
-| [nodejs-aws-reporter](https://github.com/jxman/nodejs-aws-reporter)               | Report generation  | Node.js Lambda | ✅ Active |
-| [synepho-s3cf-site](https://github.com/jxman/synepho-s3cf-site)                   | Infrastructure     | Terraform      | ✅ Active |
+| Repository                                                                        | Purpose            | Technology        | Version/Status |
+| --------------------------------------------------------------------------------- | ------------------ | ----------------- | -------------- |
+| [aws-services-site](https://github.com/jxman/aws-services-site)                   | Frontend dashboard | React 18 + Vite 5 | v2.2.0 ✅      |
+| [aws-infrastructure-fetcher](https://github.com/jxman/aws-infrastructure-fetcher) | Data collection    | Node.js 20 Lambda | 13 commits ✅  |
+| [nodejs-aws-reporter](https://github.com/jxman/nodejs-aws-reporter)               | Report generation  | Node.js 20 Lambda | 17 commits ✅  |
+| [synepho-s3cf-site](https://github.com/jxman/synepho-s3cf-site)                   | Infrastructure     | Terraform ≥1.7    | Multi-env ✅   |
 
 ## Key Features
 
@@ -197,11 +197,35 @@ See [DEPLOYMENT.md](./DEPLOYMENT.md) for complete deployment procedures.
 
 ## Project Status
 
-- **Version**: 2.1.0
-- **Status**: Production
-- **Last Updated**: 2025-01-24
+- **Version**: 2.2.0 (Frontend), Multiple active repos
+- **Status**: Production (All systems operational)
+- **Last Updated**: January 2025
 - **Maintained By**: Synepho
 - **Production URL**: https://aws-services.synepho.com
+- **Data Freshness**: Updated daily at 2:00 AM UTC
+- **System Health**: ✅ All 4 repositories active and maintained
+
+### Recent Updates (October 2025)
+
+**Frontend (aws-services-site v2.2.0)**:
+- ✅ Light/Dark mode toggle with localStorage persistence
+- ✅ Mobile-responsive hamburger navigation
+- ✅ What's New page (infrastructure changes + announcements)
+- ✅ ErrorBoundary for graceful error handling
+- ✅ ESLint configuration (0 errors/warnings)
+- ✅ SEO improvements (Phase 1 complete)
+
+**Backend Improvements**:
+- ✅ Node.js 20 runtime upgrade (Data Fetcher and Reporter)
+- ✅ 24-hour intelligent caching (reduces API calls)
+- ✅ Automated Excel report generation
+- ✅ 30-day historical data retention
+
+**Infrastructure**:
+- ✅ Multi-environment support (prod, dev, staging, aws-services)
+- ✅ GitHub OIDC authentication (no long-lived credentials)
+- ✅ Cross-region failover (us-east-1 to us-west-2)
+- ✅ CloudWatch monitoring dashboards
 
 ## Contributing
 
