@@ -258,7 +258,7 @@ See `docs/DATA_CONTRACT.md` in repository for complete schema.
 ```json
 {
   "metadata": {
-    "lastUpdated": "2025-01-24T02:00:00Z",
+    "lastUpdated": "2025-11-01T02:00:00Z",
     "totalRegions": 38,
     "totalServices": 394,
     "dataSource": "AWS Systems Manager Parameter Store",

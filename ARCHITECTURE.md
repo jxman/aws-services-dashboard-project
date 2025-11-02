@@ -154,7 +154,7 @@ The AWS Services Dashboard is a serverless, event-driven system for monitoring a
 ```json
 {
   "metadata": {
-    "lastUpdated": "2025-01-24T02:00:00Z",
+    "lastUpdated": "2025-11-01T02:00:00Z",
     "totalRegions": 38,
     "totalServices": 394,
     "dataSource": "AWS Systems Manager Parameter Store",
@@ -476,7 +476,7 @@ The AWS Services Dashboard is a serverless, event-driven system for monitoring a
 
 ## Current Status and Metrics
 
-### System Statistics (as of January 2025)
+### System Statistics (as of November 2025)
 
 - **Regions Monitored**: 38+ (commercial, China, GovCloud)
 - **Services Cataloged**: 394+
